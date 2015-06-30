@@ -49,7 +49,7 @@
           proc_limit = 10     :: integer(),
           port_count = 0      :: integer(),
           port_limit = 10     :: integer(),
-          port_list           :: gb_tree(),
+          port_list           :: gb_trees:tree(),
           node_map            :: list(),
           tref                :: timer:tref() | undefined,
           bogus_msg_p = false :: boolean()
